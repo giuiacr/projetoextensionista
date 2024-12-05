@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+:root {
+    --poppins: 'Poppins', sans-serif;
+}
+
+
+* {
+    font-family: var(--poppins);
+}
+body {
+    font-family: var(--poppins);
+    background-color: #16062B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.mensagem_sucesso{
+    background-color: #046cda;
+    color: #fff;
+    border-radius: 1.5px;
+    padding: 5px;
+}
+
+.login-container {
+    background-color: #F10065;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px #0e041a;
+    width: 100%;
+    max-width: 400px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #046cda;
+}
+
+.inscrevase {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: 500;
+}
+
+.inscrevase:hover {
+    text-decoration: none;
+    color: #046cda;
+    font-weight: 500;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+/* Rodapé */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 0.6px solid rgb(251, 251, 251);
+    height: 39px;
+    padding: 3px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: #0056b3; 
+}
+
+.rodape {
+    font-size: 15px;
+    font-family: var(--poppins);
+    color: rgb(255, 255, 255);
+}
